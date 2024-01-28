@@ -15,9 +15,9 @@
 
 <nav>
 <ul>
-<li>Education: Sam Houston State University</i>
-<li>Experience: Begininer HTML learner</li>
-<li> <a href='#'>class project</a></li>
+    <li>Education: Sam Houston State University</i>
+    <li>Experience: Begininer HTML learner</li>
+    <li> <a href='#'>class project</a></li>
 
 <p>This is my Resume <a href="files/Alex_Toresumedraftfinal.pdf"> Resume</a></p>
 <p>This is my linkend<a href="https://www.linkedin.com/feed/"> Linkend</a><p>
