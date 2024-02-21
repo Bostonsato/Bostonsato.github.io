@@ -54,9 +54,9 @@ main h3 {
 #list {
     line-height: 1.5em;
 }
-#img{
+#profile_pic {
     float: left;
-    margin-left: 2em;
+    margin-left: 4.5em;
 }
    
 .contacts {
