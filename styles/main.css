@@ -66,8 +66,8 @@ main h3{
 }
 
 header img{
-    float:left;
-    margin: left;
+        float: left;
+        margin-left: 4.5em;
 }
 
 .shadow{
