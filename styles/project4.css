@@ -52,6 +52,7 @@ margin-left: 2em;
 
 article h3 {
     column-span: left;
+    border-top: 2px solid maroon;
 }
 
 article img{
@@ -87,5 +88,4 @@ p.fixed{
     right: 0;
     border: 3px solid darkgreen;
     background-color:lightgreen;
-
 }
