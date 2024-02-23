@@ -72,6 +72,7 @@ aside{
     width:20%;
     float: right;
     background-color: #ffebc6;
+    padding: 2em;
 }
 footer{
     clear: both;
@@ -80,6 +81,7 @@ footer{
 footer p.copyright{
     text-align:center;
     font-size: 80%;
+    padding: 2em;
 }
 p.fixed{
     width:auto;
