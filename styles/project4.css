@@ -52,7 +52,7 @@ margin-left: 2em;
 
 article h3 {
     column-span: all;
-    border-top: 2px solid maroon;
+    border-top: 2px solid purple;
 }
 
 article img{
@@ -72,6 +72,7 @@ aside{
     width:20%;
     float: right;
     background-color: #ffebc6;
+    padding:10em;
 }
 footer{
     clear: both;
