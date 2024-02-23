@@ -91,6 +91,7 @@ footer{
 footer p.copyright{
     text-align:center;
     font-size: 80%;
+    padding: 3em;
 }
 p.fixed{
     width:auto;
