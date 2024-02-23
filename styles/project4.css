@@ -81,7 +81,6 @@ footer{
 footer p.copyright{
     text-align:center;
     font-size: 80%;
-    padding: 2em;
 }
 p.fixed{
     width:auto;
@@ -90,4 +89,5 @@ p.fixed{
     right: 0;
     border: 3px solid darkgreen;
     background-color:lightgreen;
+    padding: 3em;
 }
