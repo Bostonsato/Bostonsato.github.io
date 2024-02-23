@@ -51,7 +51,7 @@ margin-left: 2em;
 }
 
 article h3 {
-    column-span: left;
+    column-span: all;
     border-top: 2px solid maroon;
 }
 
