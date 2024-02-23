@@ -62,7 +62,7 @@ margin-left: 2em;
 
 article h3 {
     column-span: all;
-    border-top: 2px solid purple;
+    border-top: 2px solid maroon;
 }
 
 article img{
@@ -93,13 +93,12 @@ footer p.copyright{
     font-size: 80%;
     position: relative;
 }
-p.fixed{
-    width:auto;
-    position: fixed;
-    bottom: 25%;
-    right: 20%;
-    border: 3px solid darkgreen;
-    background-color:lightgreen;
-    padding: 10px;
-
+    p.fixed {
+        width: auto;
+        position: fixed;
+        bottom: 35%;
+        right: 0;
+        border: 3px solid darkgreen;
+        background-color: lightgreen;
+        padding: 10px;
 }
