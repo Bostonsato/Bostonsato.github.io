@@ -43,6 +43,9 @@ header h2{
     padding: 1em;
 }
 
+header{
+    border-bottom: 2px solid maroon;
+}
 header img{
     float: left;
     margin-left: 4.5em;
@@ -63,9 +66,8 @@ margin-left: 2em;
 article h3 {
     column-span: all;
 }
-header{
-    border-bottom: 2px solid maroon;
-}
+
+
 
 article img{
     float: left;
