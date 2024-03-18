@@ -24,9 +24,14 @@ aside ul{
 }
 
 
-article{
-clear: left;
+article p::first-letter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: green;
 }
+
 
 body{
     font-family:Arial, Helvetica, sans-serif;
@@ -38,4 +43,6 @@ body{
     border: 1px solid black;
     border-radius: 25px;
     box-shadow: 5px 5px 0 0;}
+
+
     
