@@ -87,9 +87,6 @@ body{
         clear: both;
         border-top: 3px solid green;
     }
-    h1{
-        border-top: 2px solid green;
-    }
     
     h1, h2{
         color: green;
