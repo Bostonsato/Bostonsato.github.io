@@ -34,12 +34,21 @@ aside ul{
     list-style-type: square;
 }
 
+article{
+    width: 75%;
+}
+
+article img{
+    float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
 
 article p::first-letter {
     font-style: italic;
     font-weight: bold;
     font-size: 2.5rem;
-    color: green;
+    color: black;
 }
 
 
@@ -56,7 +65,7 @@ body{
 
     footer{
         clear: both;
-        border-top: 2px solid blue;
+        border-top: 2px solid green;
         text-align: center;
     }
     
@@ -66,11 +75,11 @@ body{
     }
 
     h1{
-        border-top: 2px solid blue;
+        border-top: 2px solid green;
     }
     
     h1, h2{
-        color: blue;
+        color: green;
     }
     
     article{
