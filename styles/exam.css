@@ -81,8 +81,10 @@ body{
     h1, h2{
         color: green;
     }
-    
-    article{
-        width: 75%;
+    a:focus, a:hover{
+        font-style: italic;
+        color: orangered;
+        border: 3px blue;
+        border-style: dotted solid;
     }
     
