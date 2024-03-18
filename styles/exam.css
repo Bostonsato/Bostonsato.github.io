@@ -1,0 +1,20 @@
+body{
+width: 95%;
+margin: 15px auto;
+}
+
+article{
+width:75;
+}
+
+aside{
+width:20;
+}
+
+aside ol {
+    list-style-type: upper-roman;
+}
+
+aside ul {
+    list-style-type: square; 
+}
