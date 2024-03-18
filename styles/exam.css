@@ -89,15 +89,6 @@ body{
         color: green;
     }
 
-    p.fixed {
-        width: auto;
-        position: fixed;
-        bottom: 15%;
-        right: 0;
-        border: 3px solid darkgreen;
-        background-color: lightgreen;
-        padding: 10px;
-}
-
+ 
 
     
