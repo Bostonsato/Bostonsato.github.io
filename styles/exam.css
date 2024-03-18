@@ -81,6 +81,12 @@ body{
         font-size: 80%;
     }
 
+    header {    
+        margin: 0 2em;
+        padding-left: 2em;
+        clear: both;
+        border-top: 3px solid green;
+    }
     h1{
         border-top: 2px solid green;
     }
