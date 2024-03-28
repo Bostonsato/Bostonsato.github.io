@@ -38,7 +38,7 @@ html, body {
     table.third {    
         border-collapse: collapse; 
         border: 2px solid orangered;   
-        caption-side: middle;
+        caption-side: bottom;
      
     }
     table.third th {
@@ -50,4 +50,4 @@ html, body {
         vertical-align: middle;
    
     }
-        
+
