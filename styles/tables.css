@@ -39,7 +39,7 @@ html, body {
         border-collapse: collapse; 
         border: 2px solid orangered;   
         caption-side: center;
-        background-color: green;
+     
     }
     table.third th {
         background-color: green;
@@ -48,7 +48,7 @@ html, body {
     table.third th, table.third td {
         padding: 0.7em;  
         vertical-align: middle;
-        border: 2px solid orangered;
+   
     }
         
         table.second thead tr:first-child{     
