@@ -35,10 +35,10 @@ html, body {
         border-bottom: 2px solid purple;
     }
  /*-----------------------------------------------------------*/
-    table.third tr {    
+    table.third {    
         border-collapse: collapse; 
         border: 2px solid orangered;   
-        caption-side: middle;
+        caption-side: center;
         background-color: green;
     }
     table.third th {
