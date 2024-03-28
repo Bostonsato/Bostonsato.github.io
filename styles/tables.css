@@ -38,7 +38,7 @@ html, body {
     table.third {    
         border-collapse: collapse; 
         border: 2px solid orangered;   
-        caption-side: center;
+        caption-side: middle;
      
     }
     table.third th {
@@ -51,6 +51,3 @@ html, body {
    
     }
         
-        table.second thead tr:first-child{     
-            border-bottom: 2px solid purple;
-    }
