@@ -38,16 +38,17 @@ html, body {
     table.third {    
         border-collapse: collapse; 
         border: 2px solid orangered;   
-        caption-side: bottom;
+        caption-side: middle;
+
      
     }
-    table.third th {
-        background-color: green;
+    table.third th{
+        background-color: lightgreen;
     
     }
     table.third th, table.third td {
         padding: 0.7em;  
         vertical-align: middle;
-   
+        border: 2px solid purple;
     }
-
+        
