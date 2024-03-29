@@ -59,7 +59,7 @@ html, body {
     table.four {    
         border-collapse: collapse; 
        caption-side: middle;
-       border: 2px solid orangered;   
+   
 
        
     }
@@ -76,6 +76,7 @@ table.third th{
     table.third th, table.third td {
         padding: 0.7em;  
         vertical-align: middle;
+        border: 2px solid purple;
  
     }
         
