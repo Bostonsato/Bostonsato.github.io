@@ -52,3 +52,20 @@ html, body {
         border: 2px solid purple;
     }
         
+
+
+
+    /*-----------------------------------------------------------*/
+    table.four {    
+        border-collapse: collapse; 
+       
+        caption-side: middle;
+
+       
+    }
+    table.third th, table.third td {
+        padding: 0.7em;  
+        vertical-align: middle;
+ 
+    }
+        
