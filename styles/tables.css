@@ -67,6 +67,7 @@ html, body {
 
 table.third th{
     background-color: lightgreen;
+    border: 2px solid purple;
 
 }
 
