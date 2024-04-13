@@ -44,9 +44,22 @@ html, body {
 table.third th{
     background-color: lightgreen;
     border-top: 2px solid orange;
-}
-table.third th{
-    background-color: lightgreen;
-    border-top: 2px solid orange;
     border-bottom: 2px solid orange;
 }
+table.third th, table.three td {
+    padding: 0.7em;
+    vertical-align: middle;
+
+}
+
+ /*-----------------------------------------------------------*/
+ @media only screen and (max-width: 425px) {
+    th, td {
+        display: block;
+    }
+    thead, td.number {
+        display: none;
+        padding: 0;
+    }    
+}
+
