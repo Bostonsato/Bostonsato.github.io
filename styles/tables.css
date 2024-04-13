@@ -4,9 +4,10 @@ html, body {
     font-size: 100%;
     }
     
-{
-  font-family: Verdana, Arial, Helvetica, sans-serif;}
-  
+*{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
   /*-----------------------------------------------------------*/
   table.first {
       border-collapse: separate;
