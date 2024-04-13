@@ -35,24 +35,21 @@ html, body {
         border-bottom: 2px solid purple;
     }
  /*-----------------------------------------------------------*/
- table.third {
-    border-collapse: collapse;
-    border-top: 2px solid orange;
-    border-bottom: 2px solid orange;
+ table.third {    
+    border-collapse: collapse; 
+    border-top: 2px solid purple;   
     caption-side: bottom;
+    border-bottom: 2px solid red;
 }
-
-     
-table.third th{
+table.third tr:nth-child(2) {
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+}
+table.third th {
     background-color: lightgreen;
-    border-top: 2px solid orange;
-    border-bottom: 2px solid orange;
 }
-
-    
-    table.third th, table.third td {
-        padding: 0.7em;  
-        vertical-align: middle;
-       
-    }
+table.third th, table.third td {
+    padding: 0.7em;  
+    vertical-align: top;
+}
         
