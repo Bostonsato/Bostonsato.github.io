@@ -35,18 +35,18 @@ html, body {
         border-bottom: 2px solid purple;
     }
  /*-----------------------------------------------------------*/
- table.third {    
-    border-collapse: collapse; 
-    border-top: 2px solid purple;   
+ table.third {
+    border-collapse: collapse;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
     caption-side: bottom;
-    border-bottom: 2px solid red;
 }
-
-table.third th {
+table.third th{
     background-color: lightgreen;
+    border-top: 2px solid orange;
 }
-table.third th, table.third td {
-    padding: 0.7em;  
-    vertical-align: top;
+table.third th{
+    background-color: lightgreen;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
 }
-        
