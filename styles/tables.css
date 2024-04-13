@@ -41,10 +41,7 @@ html, body {
     caption-side: bottom;
     border-bottom: 2px solid red;
 }
-table.third tr:nth-child(2) {
-    border-top: 2px solid red;
-    border-bottom: 2px solid red;
-}
+
 table.third th {
     background-color: lightgreen;
 }
