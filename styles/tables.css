@@ -46,6 +46,7 @@ html, body {
 table.third th{
     background-color: lightgreen;
     border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
 }
 
     
