@@ -16,8 +16,8 @@ body{
 }
 a:focus, a:hover{
     font-style: italic;
-    color: orangered;
-    border: 3px blue;
+    color: rgb(183, 0, 255);
+    border: 3px rgba(250, 31, 2, 0.575);
     border-style: dotted solid;
 }
 
