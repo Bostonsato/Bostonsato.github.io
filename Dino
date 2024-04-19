@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Alex To at SHSU | Projects</title>
+    <link rel="stylesheet" href="styles/Dino.css">
+</head>
+<body>
+    <header>
+        <img src="images/IMG_1544.jpg" alt="profile picture" height="95" width="100">
+        <h1 class="shadow">How All Species are Connected</h1>
+        <h2 class="shadow">Phyogenies explained</h2>
+    </header>
+<article>
+<h3>WHERE IT ALL FUCKING STARTED</h3>
+<br>
+<img src="images/Amemiya-2013-Fig1.jpg"  alt="diagram" width="200" height="250">
+<p>Phylogenies, often depicted as branching diagrams, capture the intricate web of life's evolution. Each branch represents a lineage, with points of divergence indicating where new species emerged from common ancestors. By scrutinizing these patterns, scientists glean insights into the processes shaping biodiversity, from gradual divergence to rapid speciation events. Moreover, phylogenies offer a roadmap for understanding ecological relationships, behavioral adaptations, and genetic similarities among species. They reveal the grand narrative of life's journey, from ancient microbial ancestors to the staggering array of plants, animals, and fungi inhabiting our planet today. Through phylogenetic analysis, researchers unlock the secrets of evolutionary innovation, extinction, and the ongoing interplay between organisms and their environments. Thus, phylogenies stand as invaluable tools not only for cataloging life's diversity but also for unraveling the mysteries of its origins and future trajectories.
+</p>
+</article>
+
+<aside>
+    <h4>References</h4>
+    <ol>
+        <li><a href="https://w3schools.com">W3schools</a></li>
+        <li><a href="https://developer.mozilla.org">Mozilla</a></li>
+        <li><a href="https://learn.microsoft.com/en-us/training/paths/web-development=101/">Microsoft</a></li>
+    </ol>
+    <a href="https://Bostonsato.github.io">Return to the homepage</a>
+</aside>
+<footer> 
+    <p class="copyright">&copy; 2024 Alex To</p>
+</footer>
+    <p class="fixed">Contact me at aqt005@shsu.edu</p>
+</body>
+</html>
