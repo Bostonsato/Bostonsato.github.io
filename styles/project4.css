@@ -15,9 +15,9 @@ body{
 }
 a:focus, a:hover{
     font-style: italic;
-    color: orangered;
-    border: 3px blue;
-    border-style: dotted solid;
+    color: rgba(195, 0, 255, 0.301);
+    border: 3px rgb(255, 102, 0);
+    border-style: inset;
 }
 
 header h1{
@@ -85,7 +85,7 @@ article p::first-letter {
 aside{
     width:20%;
     float: right;
-    background-color: #ffebc6;
+    background-color: #f7df76;
     padding: 2em;
 }
 footer{
