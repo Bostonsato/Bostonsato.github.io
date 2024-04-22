@@ -22,15 +22,15 @@ a:focus, a:hover{
 }
 
 header h1{
-    font-size:175%;
-    color: rgb(0, 128, 75);
+    font: size 250%;
+    color: rgb(211, 123, 23);
     text-indent: 30px;
     text-shadow: 2px 2px 2px rgb(0, 128, 75);
 }
 
 header h2{
-    font-size: 130%;
-    color: rgb(0, 128, 75);
+    font-size: 200%;
+    color: rgb(211, 123, 23);
     text-indent: 30px;
     text-shadow: 2px 2px 2px rgb(0, 128, 75);
 }
@@ -78,7 +78,7 @@ article p::first-letter {
     font-size: 3em;
     font-weight: bold;
     font-style: italic;
-    color: lightgreen;
+    color: rgb(255, 255, 255);
 }
 
 aside.right {
