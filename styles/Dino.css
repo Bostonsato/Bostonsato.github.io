@@ -1,6 +1,7 @@
 
 html {
     background-image: linear-gradient(to bottom, white 0%, #406930 100%);
+    background-blend-mode: multiply;
 }
 
 body{
