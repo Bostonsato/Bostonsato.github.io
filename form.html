@@ -49,11 +49,51 @@
     </fieldset>
 
     <fieldset>
-        <legend>Member Information</legend>
+        <legend>How Did You Hear About Us</legend>
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name"
+            required autocomplete="on"><br>        
+        <label for="state">State:</label>
+        <input type="text" name="state" id="state" required 
+            maxlength="2" 
+            placeholder="2-character code"
+            autocomplete="on"><br>
+        <label for="zip">ZIP Code:</label>
+        <input type="text" name="zip" id="zip" required
+            placeholder="5 or 9 digits" 
+            pattern="^\d{5}(-\d{4})?$"
+            title="Either 5 or 9 digits"
+            autocomplete="on"><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone"
+            placeholder="999-999-9999" 
+            pattern="\d{3}[\-]\d{3}[\-]\d{4}" 
+            title="Must be 999-999-999 format"
+            autocomplete="on"><br>
+    </fieldset>
+
+    <fieldset>
+        <legend>MemberShip Information</legend>
+        MemberShip type:<br>
+<select id="type_membership">
+    <optgroup label="MemberShip Type">
+        <option value="Freshmen">Freshmen"</option>
+        <option value="Sophmore">Sophmore"</option>
+        <option value="Sophmore">16"</option>
+    </optgroup>
+    <optgroup label="The Chicago">
+        <option value="chi10">10"</option>
+        <option value="chi12">12"</option>
+        <option value="chi16">16"</option>
+    </optgroup>
+</select>
+
+
 
 
 
     </fieldset>
+
 
 
 </body>
