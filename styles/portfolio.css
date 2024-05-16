@@ -10,6 +10,17 @@
     footer{
         border-top: 1px solid #2c8d44;
         text-align: center;
-        font-size: .99Sem;
+        font-size: .99em;
+    }
+
+    .menu-toggle {
+        position: absolute;
+        top: 0;
+        margin-top: 50px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     
