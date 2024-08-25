@@ -1,4 +1,4 @@
-main{
+*{
 margin: 0;
 padding: 0;
 box-sizing:0;
@@ -59,10 +59,43 @@ color: #ededed;
 }
 
 .home-content{ 
-    background: yellowgreen;
+
     max-width: 600px;
+}
+
+.home-content h1 {
+font-size:56px;
+font-weight:700;
+}
+
+
+.home-content h3{
+    font-size:32px;
+    font-weight:700;
+    color: #00abf0;
+}
+
+
+
+.home-content p{
+
+    font: size 16px;
+}
+
+
+.home-content .btn-box{
+width:345px;
+height:50px;
+background: yellowgreen;
+
+
+
 
 }
+
+
+
+
 
 
 
