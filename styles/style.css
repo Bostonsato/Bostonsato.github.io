@@ -1,6 +1,6 @@
-{
+main{
 margin: 0;
-padding 0;
+padding: 0;
 box-sizing:0;
 font-family:0;
 }
@@ -52,10 +52,10 @@ color: #ededed;
 
 
 .home{
-    header:100vh
+    height:100vh;
     display: flex;
     align-items: center;
-    padding: 0 10%
+    padding: 0 10%;
 }
 
 .home-content{ 
