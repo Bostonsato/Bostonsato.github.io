@@ -78,12 +78,14 @@ font-weight:700;
 
 
 .home-content p{
-
     font: size 16px;
+    margin: 20px 0 40px;
 }
 
 
 .home-content .btn-box{
+display: flex;
+justify-content: space-between;
 width:345px;
 height:50px;
 background: yellowgreen;
@@ -93,8 +95,29 @@ background: yellowgreen;
 
 }
 
+.btn-box{
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    width:345px;
+    height:50px;
+    background: #00abf0;
+    border: 2px soild #00abf0;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #081b29; 
+    text-decoration: none; 
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.btn-box a:nth-child(2){
+background: transparent;
+color:#00abf0;
 
 
+}
 
 
 
