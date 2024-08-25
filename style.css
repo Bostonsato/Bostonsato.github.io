@@ -15,7 +15,7 @@ color: #ededed;
     top:0;
     left:0;
     width:100%;
-    padding: 10px 10%;
+    padding: 20px 10%;
     background: transparent;
     display:flex;
     justify-content: space-between;
@@ -84,12 +84,14 @@ font-weight:700;
 
 
 .home-content .btn-box{
+display: flex;
+justify-content: space-between;
 width:345px;
 height:50px;
 background-color: yellowgreen;
 }
 
-.btn-box a{
+.btn-box a {
     display:inline-flex;
     justify-content: center;
     align-items: center;
@@ -109,8 +111,6 @@ background-color: yellowgreen;
 .btn-box a:nth-child(2){
 background: transparent;
 color:#00abf0;
-
-
 }
 
 
