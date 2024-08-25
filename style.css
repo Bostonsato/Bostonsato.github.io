@@ -88,19 +88,19 @@ display: flex;
 justify-content: space-between;
 width:345px;
 height:50px;
-background: yellowgreen;
+
 
 
 
 
 }
 
-.btn-box{
+.btn-box a{
     display:inline-flex;
     justify-content: center;
     align-items: center;
-    width:345px;
-    height:50px;
+    width: 150px;
+    height:100px;
     background: #00abf0;
     border: 2px soild #00abf0;
     border-radius: 8px;
