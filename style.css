@@ -6,7 +6,7 @@ font-family:0;
 }
 
 body {
-background: #161718;
+
 color: #ededed;
 }
 
@@ -54,6 +54,10 @@ color: #ededed;
     display: flex;
     align-items: center;
     padding: 0 10%;
+    background: url('ollie.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 .home-content{ 
@@ -188,7 +192,7 @@ color:#161718;
 }
 
 .home-sci a::before{
-    content:'';
+content:'';
 position: absolute;
 top:0;
 left: 0;
