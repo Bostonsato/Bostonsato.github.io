@@ -73,7 +73,7 @@ line-height: 1.2;
 .home-content h3{
     font-size:32px;
     font-weight:700;
-    color: #00abf0;
+    color: #005c26;
 }
 
 
@@ -99,8 +99,8 @@ height:50px;
     align-items: center;
     width: 150px;
     height:100px;
-    background: #00abf0;
-    border: 2px soild #00abf0;
+    background: #005c26;
+    border: 2px soild #005c26;
     border-radius: 8px;
     font-size: 19px;
     color: #ffffff; 
@@ -114,12 +114,12 @@ height:50px;
 
 
 .btn-box a:hover::\ {
-    background: #00abf0;
+    background: #005c26;
     
     }
 
 .btn-box a:nth-child(2) {
-background:#00abf0;
+background: #005c26;
 background: transparent;
 }
 
@@ -128,7 +128,7 @@ background: transparent;
 }
 
 .btn-box a:hover::before {
-background: #00abf0;
+background:#005c26;
 
 }
 
@@ -140,7 +140,7 @@ background: #00abf0;
     left:0;
     width:0;
     height:100%;
-    background: blue;
+    background: green;
     z-index: -1;
     transition: .5s;
 }
