@@ -113,6 +113,11 @@ height:50px;
 }
 
 
+.btn-box a:hover::\ {
+    background: #00abf0;
+    
+    }
+
 .btn-box a:nth-child(2) {
 background:#00abf0;
 background: transparent;
@@ -133,9 +138,9 @@ background: #00abf0;
     position: absolute;
     top: 0;
     left:0;
-    width:100%;
+    width:0;
     height:100%;
-    background: #00abf0;
+    background: red;
     z-index: -1;
     transition: .5s;
 }
