@@ -223,7 +223,7 @@ line-height: 1.2;
 
 .contact-form {
     position: fixed; /* Fixes the element to the viewport */
-    top: 0; /* Aligns the element to the top */
+    bottom: 0; /* Aligns the element to the top */
     right: 0; /* Aligns the element to the right */
     width: 80%; /* Sets the width of the contact form */
     padding: 10px 5%;
