@@ -230,7 +230,8 @@ line-height: 1.2;
         z-index: 100;
     }
 
-    .mb-4{
+   
+    h2.mb-4{
         position: fixed;
         bottom:0;
         left:0;
@@ -241,4 +242,7 @@ line-height: 1.2;
         justify-content: space-between;
         align-items: center; 
         z-index: 100;
+        text-align: center; /* Centers text horizontally */
+        margin: 0 auto; /* Centers block-level elements */
     }
+
