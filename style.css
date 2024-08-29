@@ -218,3 +218,15 @@ line-height: 1.2;
     width: 100%;
 }
 
+.contact-form{ 
+        position: fixed;
+        top:0;
+        left:0;
+        width: 80%;   
+        padding: 10px 5%;
+        background: transparent;
+        display:flex;
+        justify-content: space-between;
+        align-items: center; 
+        z-index: 100;
+    }
