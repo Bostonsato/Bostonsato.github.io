@@ -231,18 +231,11 @@ line-height: 1.2;
     }
 
    
-    h2.mb-4{
-        position: fixed;
-        bottom:0;
-        left:0;
-        width: 80%;   
-        padding: 10px 5%;
-        background: transparent;
-        display:flex;
-        justify-content: space-between;
-        align-items: center; 
-        z-index: 100;
-        text-align: center; /* Centers text horizontally */
-        margin: 0 auto; /* Centers block-level elements */
+    .right-aligned {
+        position: absolute; /* Positions the element relative to the nearest positioned ancestor */
+        right: 0; /* Aligns the element to the right */
+        top: 50%; /* Centers the element vertically */
+        transform: translateY(-50%); /* Corrects vertical alignment to be perfectly centered */
+        padding-right: 20px; /* Optional: Adds some padding from the right edge */
     }
-
+    
