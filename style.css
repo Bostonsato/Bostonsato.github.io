@@ -86,7 +86,6 @@ line-height: 1.2;
 
 
 
-
 .home-content h3{
     position:relative;
     font-size:32px;
@@ -231,13 +230,15 @@ line-height: 1.2;
         z-index: 100;
     }
 
-
-    .bottom-right-image {
-        position: fixed; /* Fix the image relative to the viewport */
-        bottom: 0; /* Align it to the bottom */
-        left: 0; /* Align it to the right */
-        width: 100px; /* Adjust the width as needed */
-        height: auto; /* Maintain aspect ratio */
-        z-index: 110; /* Ensure it is above other elements if necessary */
+    .mb-4{
+        position: fixed;
+        bottom:0;
+        left:0;
+        width: 80%;   
+        padding: 10px 5%;
+        background: transparent;
+        display:flex;
+        justify-content: space-between;
+        align-items: center; 
+        z-index: 100;
     }
-    
