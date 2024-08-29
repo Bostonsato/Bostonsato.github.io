@@ -221,29 +221,29 @@ line-height: 1.2;
 
 
 
-.contact-form{ 
-        position: fixed;
-        bottom:0;
-        width: 80%;   
-        padding: 10px 5%;
-        background: transparent;
-        display:flex;
-        justify-content: space-between;
-        align-items: center; 
-        z-index: 100;
-        position: absolute; /* Positions the element relative to the nearest positioned ancestor */
-        right: 0; /* Aligns the element to the right */
-        top: 50%; /* Centers the element vertically */
-        transform: translateY(-50%); /* Corrects vertical alignment to be perfectly centered */
-        padding-right: 20px; /* Optional: Adds some padding from the right edge */
-    }
-    
-   
-    .right-aligned {
-        position: absolute; /* Positions the element relative to the nearest positioned ancestor */
-        right: 0; /* Aligns the element to the right */
-        top: 50%; /* Centers the element vertically */
-        transform: translateY(-50%); /* Corrects vertical alignment to be perfectly centered */
-        padding-right: 20px; /* Optional: Adds some padding from the right edge */
-    }
-    
+.contact-form {
+    position: fixed; /* Fixes the element to the viewport */
+    top: 0; /* Aligns the element to the top */
+    right: 0; /* Aligns the element to the right */
+    width: 80%; /* Sets the width of the contact form */
+    padding: 10px 5%;
+    background: transparent;
+    display: flex;
+    flex-direction: column; /* Ensures children are stacked vertically */
+    align-items: flex-end; /* Aligns all child elements to the right */
+    z-index: 100; /* Ensures the form stays on top of other elements */
+}
+
+.right-aligned {
+    margin-left: auto; /* Pushes the heading to the right */
+    text-align: right; /* Right-aligns text inside the heading */
+}
+
+.form-control {
+    width: 100%; /* Ensures form fields take full width available */
+    margin-bottom: 10px; /* Adds some space between form fields */
+}
+
+.submit-btn {
+    cursor: pointer; /* Changes cursor to pointer for better UX */
+}
