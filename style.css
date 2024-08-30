@@ -219,29 +219,48 @@ line-height: 1.2;
 
 
 
+
+
+
+
+/* General styles for the form */
 .contact-form {
-    position: fixed; /* Fixes the element to the viewport */
-    bottom: 0; /* Aligns the element to the top */
-    right: 0; /* Aligns the element to the right */
-    width: 80%; /* Sets the width of the contact form */
-    padding: 10px 5%;
-    background: transparent;
-    display: flex;
-    flex-direction: column; /* Ensures children are stacked vertically */
-    align-items: flex-end; /* Aligns all child elements to the right */
-    z-index: 100; /* Ensures the form stays on top of other elements */
+    max-width: 500px; /* Set a maximum width for the form */
+    margin-left: auto; /* Pushes the form to the right by auto margin */
+    margin-right: 0; /* Ensures there's no right margin */
+    padding: 20px;
+    background-color: #f9f9f9; /* Example background color */
+    border-radius: 8px; /* Rounded corners */
 }
 
-.right-aligned {
-    margin-left: auto; /* Pushes the heading to the right */
-    text-align: right; /* Right-aligns text inside the heading */
+/* Align the heading to the right */
+.contact-form h2 {
+    text-align: right;
 }
 
-.form-control {
-    width: 100%; /* Ensures form fields take full width available */
-    margin-bottom: 10px; /* Adds some space between form fields */
+/* Styles for the form inputs */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-.submit-btn {
-    cursor: pointer; /* Changes cursor to pointer for better UX */
+/* Submit button styles */
+.contact-form .submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: #0056b3;
 }
