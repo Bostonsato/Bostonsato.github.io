@@ -236,9 +236,9 @@
     border-radius: 8px; 
     color: #ededed; 
     border: 2px solid #005c26; 
-    position: fixed; /* or you can use absolute if needed */
-    bottom: 20px; /* Adjust as necessary */
-    right: 20px; /* Adjust as necessary */
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
     z-index: 1000;
 }
 
