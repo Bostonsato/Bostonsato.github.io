@@ -1,241 +1,19 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing:0;
-font-family:0;
-}
-
-body {
-background: #161718;
-color: #ededed;
-}
-
-.header { 
-    position: fixed;
-    top:0;
-    left:0;
-    width: 80%;   
-    padding: 10px 5%;
-    background: transparent;
-    display:flex;
-    justify-content: space-between;
-    align-items: center; 
-    z-index: 100;
-}
-
-.logo{
-    font-size: 25px;
-    color: #ededed;
-    text-decoration: none;
-    font-weight: 600; 
-}
-
-.log::before{
-
-    content:'';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background: #ebebeb;
-    animation: showRight 1s ease forwards;
-    animation-delay: .4s;
-}
-
-
-
-.navbar a {
-    font-size: 18px;
-    color: #ededed;
-    text-decoration: none;
-    font-weight: 500; 
-    margin-left: 35px;
-    transition:.3s;
-}
-
-
-.navbar a:hover,
-.navbar a.active{
-    color: #005c26;
-}
-
-
-
-.home{
-    height:100vh;
-    display: flex;
-    align-items: center;
-    padding: 0 10%;
-    background-size: cover;
-    background-position: center;
-
-}
-
-.home-content{ 
-
-    max-width: 600px;
-}
-
-.home-content h1 {
-position: relative;
-font-size:56px;
-font-weight:700;
-line-height: 1.2;
-}
-
-
-
-.home-content h3{
-    position:relative;
-    font-size:32px;
-    font-weight:700;
-    color: #005c26;
-}
-
-
-
-
-
-.home-content p{
-    position: relative;
-    font: size 16px;
-    margin: 20px 0 40px;
-}
-
-
-
-
-
-    .home-content .btn-box{
-        display: flex;
-        justify-content: space-between;
-        width:345px;
-        height:50px;
-        }
-
-
-.btn-box a {
-    position: relative;
-    display:inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 150px;
-    height:100px;
-    background: #005c26;
-    border: 2px soild #005c26;
-    border-radius: 8px;
-    font-size: 19px;
-    color: #ffffff; 
-    text-decoration: none; 
-    font-weight: 600;
-    letter-spacing: 1px;
-    z-index:1;
-    overflow:hidden;
-    transition: .5s;
-}
-
-
-.btn-box a:hover::\ {
-    background: #005c26;
-    
-    }
-
-    .btn-box a:nth-child(2) {
-        background: #005c26;
-        background: transparent;
-        }
-
-.btn-box a:nth-child(2):hover {
-    background: #ffffff;
-}
-
-.btn-box a:hover::before {
-    background:#005c26;
-    
-    }
-
-
-.btn-box a::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left:0;
-    width:0;
-    height:100%;
-    background: green;
-    z-index: -1;
-    transition: .5s;
-}
-
-.btn-box a:hover::before {
-    width:100%;
-    }
-
-.home-sci{
-    position: absolute;
-    bottom: 40px;
-    width: 170px;
-    display: flex;
-    justify-content: space-between;
-    }
-
-
-.home-sci a{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border:2px solid #005c26;
-    border-radius: 50%;
-    font-size: 20px;
-    color:#005c26;
-    text-decoration: none;
-    z-index: 1;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.home-sci :hover{
-    color:#161718;
-    }
-
-.home-sci a::before{
-    content:'';
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #005c26;
-    z-index: -1;
-    }
-
-.home-sci a :hover::before{
-    width: 100%;
-}
-
-
-
-
-
-
-
 /* General styles for the form */
 .contact-form {
     max-width: 500px; /* Set a maximum width for the form */
-    margin-left: auto; /* Pushes the form to the right by auto margin */
-    margin-right: 0; /* Ensures there's no right margin */
+    margin-left: auto; /* Align the form to the right */
+    margin-right: 0;
     padding: 20px;
-    background-color: #f9f9f9; /* Example background color */
+    background-color: #161718; /* Match the background color to the overall theme */
     border-radius: 8px; /* Rounded corners */
+    color: #ededed; /* Match text color to the theme */
+    border: 2px solid #005c26; /* Add a border to match the theme */
 }
 
 /* Align the heading to the right */
 .contact-form h2 {
     text-align: right;
+    color: #005c26; /* Use the green color for the heading */
 }
 
 /* Styles for the form inputs */
@@ -245,22 +23,37 @@ line-height: 1.2;
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ddd;
+    background-color: #1e1f20; /* Darker input background to match theme */
+    border: 1px solid #005c26; /* Match border color with the theme */
     border-radius: 4px;
+    color: #ededed; /* Input text color */
 }
 
 /* Submit button styles */
 .contact-form .submit-btn {
-    background-color: #007bff;
-    color: white;
+    background-color: #005c26; /* Match button color with the theme */
+    color: #ffffff;
     border: none;
     padding: 10px;
     cursor: pointer;
     text-align: center;
     display: block;
     width: 100%;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
 }
 
 .contact-form .submit-btn:hover {
-    background-color: #0056b3;
+    background-color: #003a1b; /* Darken button on hover */
+}
+
+/* Additional styles for better integration */
+.contact-form label {
+    color: #ededed; /* Ensure labels match the theme color */
+    font-weight: 500;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #8a8a8a; /* Lighter placeholder text for better readability */
 }
