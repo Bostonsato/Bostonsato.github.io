@@ -1,37 +1,124 @@
+.btn-box a:hover::\ {
+    background: #005c26;
+    
+    }
+
+    .btn-box a:nth-child(2) {
+        background: #005c26;
+        background: transparent;
+        }
+
+.btn-box a:nth-child(2):hover {
+    background: #ffffff;
+}
+
+.btn-box a:hover::before {
+    background:#005c26;
+    
+    }
+
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width:0;
+    height:100%;
+    background: green;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before {
+    width:100%;
+    }
+
+.home-sci{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border:2px solid #005c26;
+    border-radius: 50%;
+    font-size: 20px;
+    color:#005c26;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.home-sci :hover{
+    color:#161718;
+    }
+
+.home-sci a::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #005c26;
+    z-index: -1;
+    }
+
+.home-sci a :hover::before{
+    width: 100%;
+}
+
+
+
+
 /* General styles for the form */
+
+
+
 .contact-form {
-    max-width: 500px; /* Set a maximum width for the form */
-    margin-left: auto; /* Align the form to the right */
+    max-width: 500px; 
+    margin-left: auto; 
     margin-right: 0;
     padding: 20px;
-    background-color: #161718; /* Match the background color to the overall theme */
-    border-radius: 8px; /* Rounded corners */
-    color: #ededed; /* Match text color to the theme */
-    border: 2px solid #005c26; /* Add a border to match the theme */
+    background-color: #161718; 
+    border-radius: 8px; 
+    color: #ededed; 
+    border: 2px solid #005c26; 
 }
 
-/* Align the heading to the right */
+
 .contact-form h2 {
     text-align: right;
-    color: #005c26; /* Use the green color for the heading */
+    color: #005c26; 
 }
 
-/* Styles for the form inputs */
+
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    background-color: #1e1f20; /* Darker input background to match theme */
-    border: 1px solid #005c26; /* Match border color with the theme */
+    background-color: #1e1f20; 
+    border: 1px solid #005c26; 
     border-radius: 4px;
-    color: #ededed; /* Input text color */
+    color: #ededed; 
 }
 
-/* Submit button styles */
+
 .contact-form .submit-btn {
-    background-color: #005c26; /* Match button color with the theme */
+    background-color: #005c26; 
     color: #ffffff;
     border: none;
     padding: 10px;
@@ -44,16 +131,16 @@
 }
 
 .contact-form .submit-btn:hover {
-    background-color: #003a1b; /* Darken button on hover */
+    background-color: #003a1b; 
 }
 
-/* Additional styles for better integration */
+
 .contact-form label {
-    color: #ededed; /* Ensure labels match the theme color */
+    color: #ededed; 
     font-weight: 500;
 }
 
 .contact-form input::placeholder,
 .contact-form textarea::placeholder {
-    color: #8a8a8a; /* Lighter placeholder text for better readability */
+    color: #8a8a8a; 
 }
