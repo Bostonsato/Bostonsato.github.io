@@ -69,6 +69,11 @@ body {
     margin-top: 100px; /* Adjust based on the header height */
 }
 
+
+
+
+
+
 .btn-box {
     margin-top: 20px;
 }
@@ -108,6 +113,21 @@ body {
 .btn-box a:hover::before {
     width:100%;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .image img {
     max-width: 100%;
@@ -151,6 +171,32 @@ header {
 
 }
 
+
+
+
+
+    
+.home-content a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500; 
+    margin-left: 35px;
+    transition:.3s;
+}
+
+
+.home-content a:hover,
+.home-content a.active{
+    color:#6b207a;
+    ;
+}
+
+
+
+
+
+
 .home-content{ 
     
     max-width: 600px;
@@ -193,16 +239,3 @@ line-height: 1.2;
         height:50px;
         }
 
-
-        /* Add hover effect to the .home section */
-.h1:hover {
-    background-color: #6b207a; /* Purple background */
-    transition: background-color 0.3s ease;
-}
-
-/* Add hover effect to the .home-content */
-.h1:hover {
-    background-color: #6b207a; /* Purple background */
-    transition: background-color 0.3s ease;
-    color: white; /* Change text color to white for contrast */
-}
