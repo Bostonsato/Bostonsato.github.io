@@ -1,35 +1,54 @@
-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-header {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    text-align: center;
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 100px; /* Adjust based on the header height */
-}
-
-.btn-box {
-    margin-top: 20px;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord Bot Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            top: 20px;
+        }
+        nav ul {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="logo">WelcomeBot</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Success</a></li>
+                <li><a href="#">Commands</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <div class="content">
+            <h2>Welcome my gorgeous friends</h2>
+            <p>Hello my friend, good to see you here. If you want to know more about me, <a href="#">Scroll Down</a></p>
+                        <div class="btn-box">
+        <div class="image">
+            <img src="bot-image.png" alt="Bot Icon">
+        </div>
+    </section>
+</body>
+</html>
