@@ -73,6 +73,42 @@ body {
     margin-top: 20px;
 }
 
+.btn-box a:hover::\ {
+    background: #6b207a;
+    
+    }
+
+    .btn-box a:nth-child(2) {
+        background: #6b207a;
+        background: transparent;
+        }
+
+.btn-box a:nth-child(2):hover {
+    background: #ffffff;
+}
+
+.btn-box a:hover::before {
+    background:#6b207a;
+    
+    }
+
+
+.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left:0;
+    width:0;
+    height:100%;
+    background: #6b207a;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn-box a:hover::before {
+    width:100%;
+    }
+
 .image img {
     max-width: 100%;
     height: auto;
