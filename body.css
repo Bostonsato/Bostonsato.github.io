@@ -89,7 +89,7 @@ body {
         }
 
 .btn-box a:nth-child(2):hover {
-    background: #ffffff;
+    background: #000000;
 }
 
 .btn-box a:hover::before {
@@ -178,7 +178,7 @@ header {
     
 .home-content a {
     font-size: 18px;
-    color: #ededed;
+    color: #000000;
     text-decoration: none;
     font-weight: 500; 
     margin-left: 35px;
