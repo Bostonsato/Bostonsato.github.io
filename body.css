@@ -195,13 +195,13 @@ line-height: 1.2;
 
 
         /* Add hover effect to the .home section */
-.home:hover {
+.h1:hover {
     background-color: #6b207a; /* Purple background */
     transition: background-color 0.3s ease;
 }
 
 /* Add hover effect to the .home-content */
-.home-content:hover {
+.h1:hover {
     background-color: #6b207a; /* Purple background */
     transition: background-color 0.3s ease;
     color: white; /* Change text color to white for contrast */
