@@ -171,6 +171,10 @@ header {
 
 }
 
+.home a:hover
+.home a.active{
+    color:#6b207a;
+}
 
 
 
@@ -189,7 +193,6 @@ header {
 .home-content a:hover,
 .home-content a.active{
     color:#6b207a;
-    ;
 }
 
 
