@@ -90,10 +90,6 @@ header {
 }
 
 
-
-
-
-
 .btn-box {
     margin-top: 20px;
 }
@@ -135,26 +131,6 @@ header {
     }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.image img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
-
 header {
     position: absolute;
     top: 20px;
@@ -175,11 +151,7 @@ header {
     margin-top: 20px;
 }
 
-.image img {
-    max-width: 100%;
-    height: auto;
-    margin-top: 20px;
-}
+
 
 .home{
     height:100vh;
@@ -190,13 +162,6 @@ header {
     background-position: center;
 
 }
-
-.home a:hover
-.home a.active{
-    color:#6b207a;
-}
-
-asasas
 
 
     
@@ -210,18 +175,7 @@ asasas
 }
 
 
-.home-content a:hover,
-.home-content a.active{
-    color:#6b207a;
-}
-
-
-
-
-
-
 .home-content{ 
-    
     max-width: 600px;
 }
 
@@ -242,9 +196,6 @@ line-height: 1.2;
 }
 
 
-
-
-
 .home-content p{
     position: relative;
     font: size 16px;
@@ -262,3 +213,11 @@ line-height: 1.2;
         height:50px;
         }
 
+/* Change text color on hover for all text inside .home-content */
+.home-content:hover h1,
+.home-content:hover h3,
+.home-content:hover p,
+.home-content:hover a {
+    color: #6b207a; /* Purple color */
+    transition: color 0.3s ease;
+}
